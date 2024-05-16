@@ -2,3 +2,13 @@ name: PrivateChatPlugin
 version: '${project.version}'
 main: com.lucas.privatechatplugin.PrivateChatPlugin
 api-version: '1.16'
+commands:
+  tell:
+    aliases:
+      - whisper
+      - w
+      - message
+  reply:
+    aliases:
+      - rep
+      - r
