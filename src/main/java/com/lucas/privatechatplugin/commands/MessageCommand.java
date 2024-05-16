@@ -23,7 +23,7 @@ public class MessageCommand implements CommandExecutor {
         if(sender instanceof Player) {
             Player player = (Player) sender;
 
-            if(args.length == 2) {
+            if(args.length >= 2) {
                 if(Bukkit.getPlayerExact(args[0]) != null){
                     Player target = Bukkit.getPlayerExact(args[0]);
 
